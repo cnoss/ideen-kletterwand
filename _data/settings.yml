@@ -1,0 +1,13 @@
+basic_settings:
+  site_title: Schnuckies Kletterwand Vision
+  site_tagline: Eine erst Annäherung
+  favicon_image: /images/climbing.png
+  description: 
+
+
+advanced_settings:
+  ajax_loading: true
+  analytics_code: ""
+  custom_styles: ""
+  header_js: ""
+  footer_js: ""

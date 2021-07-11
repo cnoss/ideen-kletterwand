@@ -1,0 +1,72 @@
+--- 
+
+layout: default 
+title: Christian Noss
+class: grid
+
+---
+
+<div class="section herotext">
+  {% capture content %}{% include intro.html %}
+  {% endcapture %}
+  {{ content | markdownify }}
+</div>
+
+<section class="section">
+  {% capture content %}{% include bisher.html %}
+  {% endcapture %}
+  {{ content | markdownify }}
+</section>
+
+<section class="section">
+  <h2>Mögliche Plätze und deren Vor- und Nachteile</h2>
+  <ul class="overview">
+    <li class="overview-item">
+      {% include video.html videoId = "3rcqPjeu0-k" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "eIbPhTdfQdg" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "GG6B2eivdzw" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "ejjQQILcrcg" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "iZey64u6H8o" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "8iyeo8574Uk" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "3wiCZOaU7zQ" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "276dXwct3tk" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "Bf2tYmhlKfE" %}
+    </li>
+
+    <li class="overview-item">
+      {% include video.html videoId = "qcFy-17ZRrA" %}
+    </li>
+  </ul>
+
+  <p>Hier hab ich mal einige, potenzielle Möglichkeiten für eine Kletterwand bei uns drinnen und draußen abgecheckt.</p>
+</section>
+
+<section class="section">
+  {% capture content %}{% include material.html %}
+  {% endcapture %}
+  {{ content | markdownify }}
+</section>
